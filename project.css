@@ -1,0 +1,184 @@
+@font-face {
+    font-family: VCR;
+    src: url(./VCR_OSD_MONO_1.001.ttf);
+}
+
+*{
+
+    font-family: VCR;
+    text-shadow: #054f49 2px 3px ;
+}
+
+body{
+
+    background-color: #000000;
+
+}
+
+
+
+/* For The Video Loop Background*/
+.videoBG{
+position: fixed;
+right: 0;
+bottom: 0;
+z-index: -1;
+opacity: 30%;
+min-width: 100%;
+min-height: 100%;
+
+}
+
+.navbarSection{
+
+    backdrop-filter: blur(20px);
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.navbarSection a:hover{
+
+ 
+    background-image: url('https://media3.giphy.com/media/l41K3o5TzvmhZwd4A/200.gif?cid=95b2794411ls960muefz0re695lt9fqod2vn6abougx5jb54&ep=v1_gifs_gifId&rid=200.gif&ct=g');
+    border-radius: 10px;
+
+
+}
+
+.navLinks a:hover{
+
+    background-image: url('https://media3.giphy.com/media/l41K3o5TzvmhZwd4A/200.gif?cid=95b2794411ls960muefz0re695lt9fqod2vn6abougx5jb54&ep=v1_gifs_gifId&rid=200.gif&ct=g');
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.navbarContainer li{
+
+    font-size: 20px;
+
+}
+
+.breadcrumb{
+    
+    font-size: 25px;
+}
+
+.hireMe{
+
+    border-style: solid;
+    border-color: rgb(39, 39, 39);
+    border-width: 2px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.contactIcons svg:hover{
+
+    animation: contacticonsBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+@keyframes contacticonsBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 0px;
+        padding: 0px;
+        transform: scale(1.0);
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 5px;
+        padding: 5px;
+        transform: scale(1.2);
+
+    }
+
+    
+
+}
+
+.navLinks a{
+
+    font-size: 20px;
+
+}
+
+.footerContainer{
+
+    padding: 20px;
+    
+
+}
+
+.projects a{
+
+    font-size: 47px;
+
+}
+
+.projects a:hover{
+
+    background-image: url('https://media3.giphy.com/media/l41K3o5TzvmhZwd4A/200.gif?cid=95b2794411ls960muefz0re695lt9fqod2vn6abougx5jb54&ep=v1_gifs_gifId&rid=200.gif&ct=g');
+    border-radius: 10px;
+
+}
+
+.projects p{
+
+    font-size: 30px;
+
+}
+
+
+
+.footer{
+
+    border-style: solid;
+    border-color: rgb(39, 39, 39);
+    border-width: 2px;
+    backdrop-filter: blur(20px);
+    
+
+}
+
+.webDevLogos{
+
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

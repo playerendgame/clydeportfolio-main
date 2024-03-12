@@ -1,0 +1,549 @@
+@font-face {
+    font-family: VCR;
+    src: url(./VCR_OSD_MONO_1.001.ttf);
+}
+
+*{
+
+    font-family: VCR;
+    text-shadow: #054f49 2px 3px ;
+}
+
+body{
+
+    background-color: #000000;
+
+}
+
+.myPic{
+
+animation: breathe 2.0s linear infinite;
+cursor: pointer;
+
+}
+
+.Hobbies img{
+
+    animation: breathe 2.0s linear infinite;
+    cursor: pointer;
+
+}
+
+.html img:hover{
+
+    animation: htmlBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.css img:hover{
+
+    animation: cssBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.js img:hover{
+
+    animation: jsBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.bootstrap img:hover{
+
+    animation: bootstrapBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.PHP img:hover{
+
+    animation: phpBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.laravel img:hover{
+
+    animation: laravelBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.mysql img:hover{
+
+    animation: mysqlBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.github img:hover{
+
+    animation: githubBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.photoshop img:hover{
+
+    animation: photoshopBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.afterEffects img:hover{
+
+    animation: aftereffectsBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.premierePro img:hover{
+
+    animation: premiereBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.figma img:hover{
+
+    animation: figmaBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+
+@keyframes breathe{
+
+    0%{
+
+      
+        border-style: none;
+        border-width: 0px;
+        border-color: white;
+        box-shadow: white 0px 0px 0px 0px;
+        padding: 0px;
+
+
+    }
+
+    50%{
+
+
+         
+        border-style: solid;
+        border-width: 3px;
+        border-color: white;
+        box-shadow: white 0px 0px 30px 2px;
+
+        padding: 5px;
+
+
+    }
+
+}
+
+@keyframes htmlBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(253, 80, 0);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(253, 80, 0); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(253, 80, 0);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(253, 80, 0); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes cssBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(0, 139, 253);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(0, 139, 253); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(0, 139, 253);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(0, 139, 253); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes jsBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(255, 230, 0);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(255, 230, 0); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 230, 0);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 230, 0); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+
+@keyframes bootstrapBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(111, 0, 255);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(111, 0, 255); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(111, 0, 255);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(111, 0, 255); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes phpBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(112, 124, 231);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(112, 124, 231); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(112, 124, 231);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(112, 124, 231); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes laravelBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(255, 0, 0);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(255, 0, 0); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 0, 0);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 0, 0); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes mysqlBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(85, 128, 184);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(85, 128, 184); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(85, 128, 184);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(85, 128, 184); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes githubBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes photoshopBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(0, 78, 194);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(0, 78, 194); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(0, 78, 194);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(0, 78, 194); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes aftereffectsBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(12, 0, 185);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(12, 0, 185); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(12, 0, 185);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(12, 0, 185); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+
+@keyframes premiereBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(12, 0, 185);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(12, 0, 185); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(12, 0, 185);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(12, 0, 185); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes figmaBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(255, 0, 191);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(255, 0, 191); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 0, 191);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 0, 191); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+
+
+
+
+/* For The Video Loop Background*/
+.videoBG{
+position: fixed;
+right: 0;
+bottom: 0;
+z-index: -1;
+opacity: 30%;
+min-width: 100%;
+min-height: 100%;
+
+}
+
+.navbarSection{
+
+    backdrop-filter: blur(20px);
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.navbarSection a:hover{
+
+ 
+    background-image: url('https://media3.giphy.com/media/l41K3o5TzvmhZwd4A/200.gif?cid=95b2794411ls960muefz0re695lt9fqod2vn6abougx5jb54&ep=v1_gifs_gifId&rid=200.gif&ct=g');
+    border-radius: 10px;
+
+
+}
+
+.navLinks a:hover{
+
+    background-image: url('https://media3.giphy.com/media/l41K3o5TzvmhZwd4A/200.gif?cid=95b2794411ls960muefz0re695lt9fqod2vn6abougx5jb54&ep=v1_gifs_gifId&rid=200.gif&ct=g');
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.navbarContainer li{
+
+    font-size: 20px;
+
+}
+
+.breadcrumb{
+    
+    font-size: 25px;
+}
+
+.hireMe{
+
+    border-style: solid;
+    border-color: rgb(39, 39, 39);
+    border-width: 2px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.contactIcons svg:hover{
+
+    animation: contacticonsBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+@keyframes contacticonsBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 0px;
+        padding: 0px;
+        transform: scale(1.0);
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 5px;
+        padding: 5px;
+        transform: scale(1.2);
+
+    }
+
+    
+
+}
+
+.navLinks a{
+
+    font-size: 20px;
+
+}
+
+.footerContainer{
+
+    padding: 20px;
+    
+
+}
+
+
+.footer{
+
+    border-style: solid;
+    border-color: rgb(39, 39, 39);
+    border-width: 2px;
+    backdrop-filter: blur(20px);
+    
+
+}
+
+.webDevLogos{
+
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
