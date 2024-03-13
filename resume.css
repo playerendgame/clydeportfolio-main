@@ -93,6 +93,13 @@ min-height: 100%;
 
 }
 
+.resumeCover:hover{
+
+    animation: resume 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
 @keyframes contacticonsBreath{
 
     0% {
@@ -119,6 +126,33 @@ min-height: 100%;
 
 }
 
+@keyframes resume {
+    
+    0% {
+
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 0px;
+        padding: 0px;
+        transform: scale(1.0);
+
+    }
+
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 5px;
+        padding: 5px;
+        transform: scale(1.0);
+
+    }
+
+}
+
 .navLinks a{
 
     font-size: 20px;
@@ -130,6 +164,43 @@ min-height: 100%;
     padding: 20px;
     
 
+}
+
+ 
+.shine {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.shine::before {
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.1) 100%
+    );
+    content: "";
+    display: block;
+    height: 100%;
+    left: -75%;
+    position: absolute;
+    top: 0;
+    transform: skewX(-25deg);
+    width: 70vh;
+    z-index: 2;
+    animation: shine 2s linear infinite;/* Set the animation to loop infinitely */
+}
+
+@keyframes shine {
+    0% {
+        left: -75%;/*Start from initial position*/
+    }
+    100% {
+        left: 125%;/*Move to the end position*/
+    }
 }
 
 
