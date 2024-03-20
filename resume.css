@@ -189,7 +189,7 @@ min-height: 100%;
     position: absolute;
     top: 0;
     transform: skewX(-25deg);
-    width: 70vh;
+    width: 100vh;
     z-index: 2;
     animation: shine 2s linear infinite;/* Set the animation to loop infinitely */
 }
