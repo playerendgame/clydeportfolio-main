@@ -6,6 +6,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="scrollanimations.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" type="image/x-icon" href="./images/homepage/148306699.jpg">
     <title>Clyde Timothy | Projects</title>
 </head>
@@ -78,7 +80,17 @@
 
         </div>
 
-        <div class="scroll-animations projects row pt-5 pb-5">
+        <div class="row pt-2 pb-3">
+
+            <h1 class="display-5 text-light" data-aos="fade-right" data-aos-duration="2000">
+                <span><</span>
+                Major & Capstone Projects
+                <span>/></span>
+            </h1>
+
+        </div>
+
+        <div class="projects row pt-5 pb-5" data-aos="zoom-in-up" data-aos-duration="2000">
 
             <div class=" clydePortfolio col-md-6 p-4">
 
@@ -124,10 +136,43 @@
 
         </div>
 
+        <div class="row pt-2 pb-3">
 
-        <div class="row pt-5 pb-5">
+            <h1 class="display-5 text-light" data-aos="fade-left" data-aos-duration="2000">
+                <span><</span>
+                Practice Projects
+                <span>/></span>
+            </h1>
 
-            <div class="hireMe container">
+        </div>
+
+        <div class="projects row pt-5 pb-5" data-aos="zoom-in-up" data-aos-duration="2000">
+
+            <div class=" col-md-6 p-4">
+
+                <a href="https://github.com/playerendgame/jobapplicationtrackerapp" target="_blank" class="text-light nav-link">Laravel Job Application Tracker</a>
+                <p class="text-light lead">This simple Laravel App is a Job Application Tracker, where you can log & signup an account for confidentiality of your inputed Job applications.
+                    But unfortunately, you have to download the files from my Github in order to try my Laravel App, if you know how, feel free to download my codes.
+                </p>
+
+            </div>
+        
+            <div class=" col-md-6 p-4">
+
+                <a href="https://playerendgame.github.io/luxurypresence/" target="_blank" class="text-light nav-link">Company Assessment</a>
+                <p class="text-light lead">This single page UI project is from my assessment of one of my job applications.</p>
+
+            </div>
+
+    
+
+        </div>
+
+
+
+        <div class="row pt-2 pb-5">
+
+            <div class="hireMe container" data-aos="fade-up" data-aos-duration="1000">
 
                 <h1 class="text-center display-5 text-light">Hire Me!</h1>
 
@@ -235,7 +280,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="project.js"></script>
-    <script src="./scrollanimations.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>
