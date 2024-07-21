@@ -50,6 +50,13 @@ cursor: pointer;
 
 }
 
+.vue img:hover{
+
+    animation: vueBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
 .bootstrap img:hover{
 
     animation: bootstrapBreath 1.5s linear infinite;
@@ -207,6 +214,27 @@ cursor: pointer;
 
 }
 
+
+@keyframes vueBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(82, 255, 140);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(82, 255, 140); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(82, 255, 140);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(82, 255, 140); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
 
 @keyframes bootstrapBreath{
 
