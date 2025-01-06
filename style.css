@@ -57,12 +57,20 @@ cursor: pointer;
 
 }
 
+.wordpress img:hover{
+
+    animation: wordpressBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
 .bootstrap img:hover{
 
     animation: bootstrapBreath 1.5s linear infinite;
     cursor: pointer;
 
 }
+
 
 .PHP img:hover{
 
@@ -88,6 +96,13 @@ cursor: pointer;
 .github img:hover{
 
     animation: githubBreath 1.5s linear infinite;
+    cursor: pointer;
+
+}
+
+.sourcetree img:hover{
+
+    animation: sourcetreeBreath 1.5s linear infinite;
     cursor: pointer;
 
 }
@@ -257,6 +272,28 @@ cursor: pointer;
 
 }
 
+@keyframes wordpressBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(238, 238, 238);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(251, 251, 251); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+
 @keyframes phpBreath{
 
     0% {
@@ -334,6 +371,27 @@ cursor: pointer;
         border-color: rgb(255, 255, 255);
         border-width: 3px; /* Adjust border width as needed */
         box-shadow: 0px 0px 30px 2px rgb(255, 255, 255); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+
+    
+
+}
+
+@keyframes sourcetreeBreath{
+
+    0% {
+        border-style: solid;
+        border-color: rgb(0, 142, 250);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(0, 142, 250); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(0, 142, 250);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(0, 142, 250); /* Add complete box-shadow syntax */
         border-radius: 20px;
     }
 
