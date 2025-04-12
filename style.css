@@ -57,12 +57,20 @@ cursor: pointer;
 
 }
 
+
+.shopify img:hover{
+
+    animation: shopifyBreath 1.5s linear infinite;
+    cursor: pointer;
+}
+
 .wordpress img:hover{
 
     animation: wordpressBreath 1.5s linear infinite;
     cursor: pointer;
 
 }
+
 
 .bootstrap img:hover{
 
@@ -290,6 +298,24 @@ cursor: pointer;
     }
 
     
+
+}
+
+@keyframes shopifyBreath{
+    0% {
+        border-style: solid;
+        border-color: rgb(171, 248, 70);
+        border-width: 0px; /* Add initial border width */
+        box-shadow: 0px 0px 0px 0px rgb(171, 248, 70); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
+    25% {
+        border-style: solid;
+        border-color: rgb(171, 248, 70);
+        border-width: 3px; /* Adjust border width as needed */
+        box-shadow: 0px 0px 30px 2px rgb(171, 248, 70); /* Add complete box-shadow syntax */
+        border-radius: 20px;
+    }
 
 }
 
